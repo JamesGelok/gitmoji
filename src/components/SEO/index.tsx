@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-type Props = { pageTitle?: string, pageUrl?: string }
+type Props = { pageTitle?: string; pageUrl?: string }
 
 const SEO = (props: Props) => (
   <Head>
